@@ -1,0 +1,19 @@
+body {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+}
+
+.center {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.logo {
+	margin-bottom: 20px;
+}
+
+.gif {
+	margin-bottom: 10px;
+}

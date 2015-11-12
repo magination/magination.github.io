@@ -47,3 +47,16 @@ body {
 #mc_embed_signup #mce-error-response {display:none;}
 #mc_embed_signup #mce-success-response {color:#529214; display:none;}
 #mc_embed_signup label.error {display:block; float:none; width:auto; margin-left:1.05em; text-align:left; padding:.5em 0;}
+
+#mc_embed_signup #mce-EMAIL{
+    width: 300px;
+    height: 50px;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 3px;
+    border-width: 2px;
+}
+
+#mc_embed_signup .button {
+    height: 40px;
+}

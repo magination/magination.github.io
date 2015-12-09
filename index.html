@@ -1,50 +1,288 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title>Magination</title>
-    <meta name="description" content="A magnetic game where you are in charge!"/>
-    <meta name="keywords" content="Magnets, Game, Imagination, Magination, Creative, Creativity, Children"/>
-    <link rel="icon" type="image/png" href="images/favicon.ico">
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+<html lang="en">
 
-  ga('create', 'UA-44245810-1', 'auto');
-  ga('send', 'pageview');
-</script>
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Creative - Start Bootstrap Theme</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+
+    <!-- Custom Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
+
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="css/animate.min.css" type="text/css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/creative.css" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
 </head>
-<body>
-<img src="images/MaginationLogo.jpg" class="center logo" title="logo" alt="Logo"/>
-<br>
-<img src="images/WantThis.jpg" class="center wantThis" title="WantThis" alt="WantThis"/>
-<!-- Begin MailChimp Signup Form -->
-<!-- <link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
-<style type="text/css">
-    #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
-    /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
-       We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-</style> -->
-<div id="mc_embed_signup" class="center">
-	<form action="//magination.us7.list-manage.com/subscribe/post?u=40a3d9a95b71a868c0e9c2fb7&amp;id=0bd71d8784" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-	   <div id="mc_embed_signup_scroll">
-	    <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
-	   <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-	   <div style="position: absolute; left: -5000px;"><input type="text" name="b_40a3d9a95b71a868c0e9c2fb7_0bd71d8784" tabindex="-1" value=""></div>
-	   <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-	   </div>
-	</form>
-</div>
-<!--End mc_embed_signup-->
-<br>
-<br>
-<img src="images/MagTension.gif" class="center gif" title="Magtension" alt="Gif of Magtension"/>
-<br>
-<img src="images/Epic-collapse_1.gif" class="center gif" title="Epic collapse of magnets" alt="Epic collapse of magnets"/>
-<br>
-<br>
-<iframe src="https://player.vimeo.com/video/145057051" width="700" height="393" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+<body id="page-top">
+
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Magination</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="page-scroll" href="#sign">Sign up</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#video">Video</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#games">Games</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <header>
+        <div class="header-content">
+            <div class="header-content-inner">
+                <h1>Magination</h1>
+                <hr>
+                <p>Experiences the joy of creativity with magnets, as you play countless of games!</p>
+                <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="bg-dark" id="sign">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Missed our kickstarter?</h2>
+                    <h2 class="section-heading">Sign up here to get information on when it's available for you!</h2>
+                    <hr class="light">
+
+                    <!-- Begin MailChimp Signup Form -->
+                    <link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
+                    <style type="text/css">
+                        #mc_embed_signup{clear:left; font:14px Helvetica,Arial,sans-serif; }
+                        /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+                           We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+                    </style>
+                    <div id="mc_embed_signup">
+                    <form action="//magination.us7.list-manage.com/subscribe/post?u=40a3d9a95b71a868c0e9c2fb7&amp;id=6951e3ea1c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                        <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+                        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_40a3d9a95b71a868c0e9c2fb7_6951e3ea1c" tabindex="-1" value=""></div>
+                        <div class="clear">
+                        <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-default btn-xl"></div>
+                        </div>
+                    </form>
+                    </div>
+
+                    <!--End mc_embed_signup-->
+                    <!--<p class="text-faded">Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!</p> -->
+                    <!--<a href="#" class="btn btn-default btn-xl">Get Started!</a>-->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="video">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">VIDEO OF MAGINATION</h2>
+                    <hr class="primary">
+                    <br>
+                </div>
+            </div>
+        </div>
+        <div class="container text-center">
+            <iframe width="640" height="360" src="https://www.youtube.com/embed/MOP2Ltb6eA0?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <aside class="bg-primary">
+        <div class="container text-center">
+            <div class="call-to-action">
+                <h2>Made with <span class="glyphicon glyphicon-heart" aria-hidden="true"></span> in Norway!</h2>
+                <!--<a href="#" class="btn btn-default btn-xl wow tada">Download Now!</a>-->
+            </div>
+        </div>
+    </aside>
+
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">ABOUT</h2>
+                    <hr class="primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 text-center">
+                    <img src="images/gif3.gif" class="gif">
+                    <h3>Play</h3>
+                    <hr class="primary small">
+                    <p>Magination allows you to play an unlimited amout of games, while making it esy to be creative and make your own!</p>
+                    <!--<p>Magination can be compared to a magnetic deck of cards, in the way that it's possible to play an unlimited amount of games. In addition to a deck of cards, Magination makes it much easier to be creative and find new ways to play. Create your own games or play some of the many games created for you!</p>-->
+                </div>
+                <div class="col-lg-4 col-md-6 text-center">
+                    <img src="images/gif2.gif" class="gif">
+                    <h3>Build</h3>
+                    <hr class="primary small">
+                    <p>Build structures, shooters and courses with the help of magnetic power. Use it to enhance the functionality of your games or build a ping pong shooter.</p>
+                </div>
+                <div class="col-lg-4 col-md-6 text-center">
+                    <img src="images/gif1.gif" class="gif">
+                    <h3>Experiment</h3>
+                    <hr class="primary small">
+                    <p>Magnets are fun and easy to experiment with! Magination allows you to do magnificent things, and never run out of awesome things to do.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <aside class="bg-green">
+        <div class="container text-center">
+            <div class="call-to-action">
+                <h2>"You can't use up creativity. The more you use, the more you have!"</h2>
+                <h2>- Maja Angelou</h2>
+            </div>
+        </div>
+    </aside>
+
+    <section id="games">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">SOME GAMES</h2>
+                    <hr class="primary">
+                </div>
+            </div>
+        </div>
+        <div class="container text-center">
+        <img src="images/game1.jpg">
+        <img src="images/game2.jpg">
+        <img src="images/game3.jpg">
+        <!--
+            <img src="images/team.jpg">
+            <p>Tobias Linkjendal, Hanna Agersborg Aanjesen and Juul Arthur Ribe Rudihagen</p>
+        -->
+        </div>
+        
+    </section>
+
+    <aside id="contact" class="bg-yellow">
+            <div class="container-small text-center">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Let's Get In Touch!</h2>
+                    <hr class="white">
+                </div>
+                <div class="col-lg-4 text-center">
+                    <a class="white" href="www.facebook.com">
+                        <i class="fa fa-facebook fa-3x wow bounceIn"></i>
+                        <p>Facebook</p>
+                    </a>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <a class="white" href="www.twitter.com">
+                        <i class="fa fa-twitter fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+                        <p>Twitter</p>
+                    </a>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <a class="white" href="mailto:your-email@your-domain.com">
+                        <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+                        <p>contact@maginationgame.com</p>
+                    </a>
+                </div>
+            </div>
+    </aside>
+    <!--
+    <section class="no-padding-bottom" id="contact">
+        <div class="container-small text-center">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Let's Get In Touch!</h2>
+                    <hr class="primary">
+                </div>
+                <div class="col-lg-4 text-center">
+                    <a href="www.facebook.com">
+                        <i class="fa fa-facebook fa-3x wow bounceIn"></i>
+                        <p>Facebook</p>
+                    </a>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <a href="www.twitter.com">
+                        <i class="fa fa-twitter fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+                        <p>Twitter</p>
+                    </a>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <a href="mailto:your-email@your-domain.com">
+                        <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+                        <p>contact@maginationgame.com</p>
+                    </a>
+                </div>
+            </div>
+            <img src="images/es.png">
+        </div>
+        <hr class="footer-line">
+        <div class="footer-container text-center">
+            <br>
+            <p class="footer-text">© 2015 All Rights Reserved. Made with <i class="fa fa-magnet"></i> by Magination</p>
+        </div> 
+    </section>
+    -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/jquery.fittext.js"></script>
+    <script src="js/wow.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/creative.js"></script>
+
 </body>
+
 </html>

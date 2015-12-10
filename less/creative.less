@@ -58,7 +58,7 @@ p {
 .bg-yellow {
     background-color: @theme-yellow;
     color: white;
-    height: 220px;
+    min-height: 220px;
 }
 
 .bg-green {
@@ -175,7 +175,7 @@ header {
     min-height: auto;
     .background-cover;
     background-position: center;
-    background-image: url('../images/header.jpg');
+    background-image: url('../images/front-img-darkened.png');
     text-align: center;
     color: white;
     .header-content {
@@ -320,7 +320,7 @@ header {
 
 // Button Styles
 .btn-default {
-    .button-variant(@theme-dark;white;white);
+    .button-variant(@theme-green;white;white);
     &:hover {
         .button-variant(@theme-primary;white;white);
     }
@@ -363,10 +363,13 @@ header {
     border: 2px solid;
     border-radius: 25px;
     padding-left: 20px;
+    color: black;
+    border-color: white;
+    text-align: center;
 }
 
 .container-small {
-    max-width: 770px;
+    max-width: 420px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -392,6 +395,10 @@ header {
 .white {
     color: white;
     border-color: white;
+}
+
+.front-logo {
+    width: 70%;
 }
 
 img::selection {

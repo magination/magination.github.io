@@ -47,7 +47,7 @@ p {
 .bg-yellow {
   background-color: #FFB720;
   color: white;
-  height: 220px;
+  min-height: 220px;
 }
 .bg-green {
   background-color: #4FAF2F;
@@ -157,7 +157,7 @@ header {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  background-image: url('../images/header.jpg');
+  background-image: url('../images/front-img-darkened.png');
   text-align: center;
   color: white;
 }
@@ -286,7 +286,7 @@ header .header-content .header-content-inner p {
   padding-left: 0;
 }
 .btn-default {
-  color: #ED4B37;
+  color: #4FAF2F;
   background-color: white;
   border-color: white;
   -webkit-transition: all 0.35s;
@@ -299,7 +299,7 @@ header .header-content .header-content-inner p {
 .btn-default:active,
 .btn-default.active,
 .open > .dropdown-toggle.btn-default {
-  color: #ED4B37;
+  color: #4FAF2F;
   background-color: #f2f2f2;
   border-color: #ededed;
 }
@@ -331,7 +331,7 @@ fieldset[disabled] .btn-default.active {
 }
 .btn-default .badge {
   color: white;
-  background-color: #ED4B37;
+  background-color: #4FAF2F;
 }
 .btn-default:hover {
   color: #009CDE;
@@ -456,9 +456,12 @@ fieldset[disabled] .btn-primary.active {
   border: 2px solid;
   border-radius: 25px;
   padding-left: 20px;
+  color: black;
+  border-color: white;
+  text-align: center;
 }
 .container-small {
-  max-width: 770px;
+  max-width: 420px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -480,6 +483,9 @@ fieldset[disabled] .btn-primary.active {
 .white {
   color: white;
   border-color: white;
+}
+.front-logo {
+  width: 70%;
 }
 img::selection {
   color: white;

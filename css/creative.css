@@ -487,8 +487,12 @@ fieldset[disabled] .btn-primary.active {
 .front-logo {
   width: 70%;
 }
+a:hover {
+  color: #009CDE;
+}
 .es {
-  float: left;
+  position: relative;
+  float: right;
   margin-left: auto;
 }
 img::selection {

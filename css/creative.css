@@ -490,10 +490,13 @@ fieldset[disabled] .btn-primary.active {
 a:hover {
   color: #009CDE;
 }
-.es {
-  position: relative;
-  float: right;
-  margin-left: auto;
+.ks {
+  color: white;
+  text-decoration: none;
+}
+.ks:hover {
+  color: #009CDE;
+  text-decoration: none;
 }
 img::selection {
   color: white;

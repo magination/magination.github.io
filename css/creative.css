@@ -487,6 +487,10 @@ fieldset[disabled] .btn-primary.active {
 .front-logo {
   width: 70%;
 }
+.es {
+  float: left;
+  margin-left: auto;
+}
 img::selection {
   color: white;
   background: transparent;

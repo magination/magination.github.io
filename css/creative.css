@@ -510,7 +510,7 @@ body {
   webkit-tap-highlight-color: #ED4B37;
 }
 @media screen and (max-width: 640px) {
-  .btn-xl {
+  .hide-mobile {
     visibility: hidden;
   }
   .videowrapper {

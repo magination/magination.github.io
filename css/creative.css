@@ -157,7 +157,7 @@ header {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  background-image: url('../images/front-img-darkened.png');
+  background-image: url('../images/front-img-darkened-crop.jpg');
   text-align: center;
   color: white;
 }

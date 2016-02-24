@@ -123,8 +123,13 @@
                 </div>
             </div>
         </div>
-        <div class="container text-center videowrapper">
-            <iframe width="640" height="360" src="https://www.youtube.com/embed/MOP2Ltb6eA0?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+        <div class="container text-center videowrapper" id="video-container">
+            <iframe id="video-playing" width="640" height="360" src="https://www.youtube.com/embed/MOP2Ltb6eA0?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="row text-center">
+            <img src="images/video-img-1-selected.png" id="video-1" class="video-thumbnail">
+            <img src="images/video-img-2-normal.png" id="video-2" class="video-thumbnail">
+            <img src="images/video-img-3-normal.png" id="video-3" class="video-thumbnail">
         </div>
     </section>
 
@@ -216,17 +221,19 @@
                     <h2 class="section-heading">Let's Get In Touch!</h2>
                     <hr class="white">
                 </div>
-                <div class="col-lg-4">
+            </div>
+            <div class="row text-center center">
+                <div class="col-xs-4">
                     <a class="white" href="http://www.facebook.com/maginationgame" target="_blank">
                         <i class="fa fa-facebook fa-3x wow bounceIn"></i>
                     </a>
                 </div>
-                <div class="col-lg-4 text-center">
+                <div class="col-xs-4 text-center">
                     <a class="white" href="http://www.twitter.com/maginationgame" target="_blank">
                         <i class="fa fa-twitter fa-3x wow bounceIn" data-wow-delay=".1s"></i>
                     </a>
                 </div>
-                <div class="col-lg-4 text-center">
+                <div class="col-xs-4 text-center">
                     <a class="white" href="mailto:contact@maginationgame.com" target="_blank">
                         <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
                     </a>
@@ -287,6 +294,9 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="js/creative.js"></script>
+
+    <!-- Custom Javascript -->
+    <script src="js/videoGallery.js"></script>
 
     <script>
     (function() {

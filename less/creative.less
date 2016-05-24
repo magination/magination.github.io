@@ -330,6 +330,21 @@ header {
     .button-variant(white;@theme-primary;@theme-primary);
 }
 
+.btn-yellow {
+    .button-variant(white;#B8BDBF;#B8BDBF);
+}
+
+.kickstarter-link {
+    position: relative;
+    top: 20px;
+    color: white;
+    cursor: pointer;
+
+    &:hover {
+        color: @theme-primary;
+    }
+}
+
 .btn {
     .sans-serif-font;
     border: none;
@@ -401,6 +416,16 @@ header {
     width: 70%;
 }
 
+.copyright {
+    position: relative;
+    top: 35px;
+    font-size: 14px;
+}
+
+.video-thumbnail {
+    cursor: pointer;
+}
+
 a:hover {
     color: #009CDE;
 }
@@ -441,6 +466,11 @@ body {
 
     .videowrapper iframe {
         width: 100%;
+    }
+
+    .video-thumbnail {
+        width: 28%;
+        cursor: pointer;
     }
 
     .imageWrapper {

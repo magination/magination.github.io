@@ -603,3 +603,9 @@ body {
     width: 100%;
   }
 }
+
+.vertical-line {
+  border-right: solid #ffffff;
+  margin-right: 10px;
+
+}
